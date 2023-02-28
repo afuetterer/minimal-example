@@ -34,6 +34,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         run: |
+          poetry run semantic-release --version
           poetry run semantic-release -h
           poetry run semantic-release version -h
 
@@ -41,9 +42,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-
           poetry run semantic-release -vv version
 
       # - name: semantic release
