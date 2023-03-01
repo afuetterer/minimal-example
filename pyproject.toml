@@ -10,7 +10,8 @@ packages = [{include = "hello_world.py"}]
 python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
-python-semantic-release = { version = "==8.0.0-alpha.4", allow-prereleases = true}
+# python-semantic-release = { version = "==8.0.0-alpha.4", allow-prereleases = true}
+python-semantic-release = { git = "https://github.com/python-semantic-release/python-semantic-release", branch = "8.0.0-alpha-5" }
 
 [build-system]
 requires = ["poetry-core"]
