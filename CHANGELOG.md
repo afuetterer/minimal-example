@@ -2,6 +2,19 @@
 
 
 
+## 0.1.1 (2023-03-01)
+
+### Chore
+
+* chore: set python-semantic-release dep to branch ([`f120b7f`](https://github.com/afuetterer/minimal-example/commit/f120b7f16f1407283dfe25833e88532f1f1b262d))
+
+* chore: remove explicit git user config ([`e3981bb`](https://github.com/afuetterer/minimal-example/commit/e3981bb595bcb6bba5b9e54e2caa465c4c4ac963))
+
+### Fix
+
+* fix: update func ([`c90d606`](https://github.com/afuetterer/minimal-example/commit/c90d606367377c4452cc3abce128226518c32621))
+
+
 ## 0.1.0 (2023-02-28)
 
 ### Chore
