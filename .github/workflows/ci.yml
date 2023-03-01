@@ -43,9 +43,3 @@ jobs:
           GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         run: |
           poetry run semantic-release -vv version
-
-      # - name: semantic release
-      #   uses: python-semantic-release/python-semantic-release@v8.0.0-alpha.3
-      #   with:
-      #     github_token: ${{ secrets.RELEASE_TOKEN }}
-      #     additional_options: -vv
