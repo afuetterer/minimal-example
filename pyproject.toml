@@ -30,7 +30,7 @@ match = "main"
 
 [tool.semantic_release.changelog]
 exclude_commit_patterns = [
-    "chore: release"
+    "chore"
 ]
 
 [tool.semantic_release.commit_author]
